@@ -114,7 +114,7 @@ background: transparent;
 	color: #BEBEBE;
 }
 .btn {
-	color:#000;
+	color:rgb(4, 32, 0);
 	background: #FFDF00;
 }
 .btn:hover {
@@ -375,7 +375,7 @@ background: rgb(34, 34, 34);
 }
 .header .navbar {
 	margin: 0;
-background: rgba(0, 0, 0, 0.75);
+background: rgba(0, 24, 7, 0.75);
 border: 0;
 padding: 0px 15px;
 }
@@ -393,7 +393,7 @@ margin-top: 39px;
 margin-left: 30px;
 padding: 15px 46px;
 font-size: 20px;
-color: #000;
+color: rgb(0, 26, 6);
 }
 .hero-text2 .btn-apply .fa{
 padding-right: 15px;
@@ -447,7 +447,7 @@ color: #000;
 	line-height: 1.5em;
 }
 .darkBg {
-	background: #000;
+	background: rgb(0, 12, 1);
 }
 .darkBg .fa {
 	color: #FFDF00;
@@ -486,7 +486,7 @@ line-height: 1.5em;
 font-size: 28px !important;
 margin: 37px 0 13px;
 font-weight: bolder; 
-background: rgba(0, 0, 0, 0.44);
+background: rgba(0, 32, 8, 0.44);
 width: 60%;
 margin: 0 auto;
 padding: 20px 0;
@@ -1325,7 +1325,7 @@ margin-top: 36px;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #A8A8A8;
+	border-color: #022a0e;
 }
 .row .area1, .row .area2 { 
 display: block;
@@ -1337,12 +1337,12 @@ text-align: center;
 }
 .hero-text2 h3 {
 font-size: 16px;
-color: #777777;
+color: #002704;
 line-height: 28px;
 text-align: center;
 }
 #home{ 
-background: rgb(34, 34, 34);
+background: rgb(0, 42, 9);
 }
 .carousel, .carousel-inner, .carousel-inner .item {
 height: auto !important;
