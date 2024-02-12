@@ -15,7 +15,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #006633;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	background: #fff;
@@ -34,7 +34,7 @@ body {
  background: #FFDF00;
 }
 p {
-	color: #858585;
+	color: #FFFFFF;
 	margin: 0 0 1em !important;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -114,7 +114,7 @@ background: transparent;
 	color: #BEBEBE;
 }
 .btn {
-	color:rgb(4, 32, 0);
+	color:#006633;
 	background: #FFDF00;
 }
 .btn:hover {
@@ -141,7 +141,7 @@ padding: 8px 12px;
 	border: none;
 	padding: 22px 4px;
 	outline: none;
-	color: #5A5A5A;
+	color: #006633;
 	margin: 0;
 	width: 210px;
 	max-width: 100%;
@@ -181,7 +181,7 @@ a {
 	transition: all 0.2s linear;
 }
 a:hover {
-	color: #000;
+	color: #006633;
 	text-decoration: none;
 }
 .btn {
@@ -198,15 +198,15 @@ a:hover {
 	margin: 30px 0;
 }
 .copyright {
-	color: #000;
+	color: #006633;
 	background: #FFDF00;
 	padding: 20px 0;
 }
 .copyright a{
-color: #000;
+color: #006633;
 }
 .copyright a:hover{
-color: #1E4D02 !important;
+color: #006633 !important;
 }
 #top {
 	position: relative;
@@ -223,7 +223,7 @@ color:#F89F9F;
 /* Header 
 ----------------------------------------------*/
 #section-top {
-	background: #4E4E4E;
+	background: #006633;
 }
 #section-top ul {
 	margin: 0;
@@ -263,7 +263,7 @@ color:#F89F9F;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
-	background:#000;
+	background:#006633;
 	top:0px;
 }
 .navbar-inverse {
@@ -288,10 +288,10 @@ color:#F89F9F;
 .navbar-toggle {
 }
 #home{ 
-background: rgb(34, 34, 34);
+background: #006633;
 }
 .hero-text {
-	color: #676e73;
+	color: #000000;
 	width: 83%;
 	text-align: center;
 	margin: 30% auto 24px auto;
@@ -301,7 +301,7 @@ background: rgb(34, 34, 34);
 	font-family: 'Oswald', sans-serif;
 	padding: 0;
 	margin: 12px 8% 0;
-	text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+	text-shadow: 0px 1px 2px #000000;
 }
 /*.carousel-inner*/
 #myCarousel {
@@ -327,7 +327,7 @@ background: rgb(34, 34, 34);
 }
 .carousel-caption h3 {
 	font-size: 30px;
-	color: #1C4604;
+	color: #000000;
 	font-weight: bold;
 	text-shadow: #fff 1px 1px 1px;
 }
@@ -346,7 +346,7 @@ background: rgb(34, 34, 34);
 	line-height: 90px !important;
 }
 #section-strapline {
-	background: #86bd2e;
+	background: #000000;
 	line-height: 42px;
 	clear: both;
 }
@@ -375,18 +375,21 @@ background: rgb(34, 34, 34);
 }
 .header .navbar {
 	margin: 0;
-background: rgba(0, 24, 7, 0.75);
+background: #006633;
 border: 0;
 padding: 0px 15px;
 }
 .hero-text2{
 	padding:30px 0; 	
 }
+.container.hero-text2 {
+	background: #006633;
+}
 .hero-text2 h2{
 	font-size: 28px;
-	c
 	line-height: 36px; 
-	text-align: left
+	text-align: left;
+	color: #FFFFFF
 }
 .hero-text2 .btn-apply{
 margin-top: 39px;
@@ -486,7 +489,7 @@ line-height: 1.5em;
 font-size: 28px !important;
 margin: 37px 0 13px;
 font-weight: bolder; 
-background: rgba(0, 32, 8, 0.44);
+background: #006633;
 width: 60%;
 margin: 0 auto;
 padding: 20px 0;
@@ -585,7 +588,7 @@ a.arrow-link:hover {
 	background: rgba(255, 255, 255, 0.13);
 	margin: 3px;
 	cursor: pointer;
-	box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
+	box-shadow: 1px 1px 1px #006633 inset, 1px 1px 1px rgba(255,255,255,0.1);
 	border: 2px solid #FFDF00;
 }
 img, video, iframe, embed, object {
@@ -616,7 +619,7 @@ img, video, iframe, embed, object {
 	font: 18px/34px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #222;
+	color: #006633;
 }
 .fluid-video-wrapper {
 	margin-top: 18px;
@@ -819,7 +822,7 @@ left: 2px;
 }
 /* --Portfolio----- */
 #work {
- background:rgb(34, 34, 34);
+ background:#006633;
 }
 #work h2 { 
 color:#fff;
@@ -1031,7 +1034,7 @@ footer {
 	height: 110%;
 }
 footer{
-	background: #0B0B0B;
+	background: #006633;
 }
 footer h4{
 font-size:24px;	
@@ -1337,12 +1340,13 @@ text-align: center;
 }
 .hero-text2 h3 {
 font-size: 16px;
-color: #002704;
+color: #000000;
+background: #006633;
 line-height: 28px;
 text-align: center;
 }
 #home{ 
-background: rgb(0, 42, 9);
+background: #006633;
 }
 .carousel, .carousel-inner, .carousel-inner .item {
 height: auto !important;
