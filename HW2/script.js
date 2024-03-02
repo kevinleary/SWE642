@@ -1,10 +1,12 @@
-//Function to delete a cookie
+// Kevin Leary
+// SWE 642
+// HW2
+
 function wrongPerson() {
     document.cookie = "username=;" + " expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     location.reload();
 }
 
-//Function to greet user with stored cookies
 function cookie() {
     var now = new Date();
     var hour = now.getHours();
@@ -36,7 +38,6 @@ function cookie() {
     greet_id.innerHTML = message;
 }
 
-//Function to check document.cookie
 function getCookie(cname) {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
@@ -52,7 +53,6 @@ function getCookie(cname) {
     return "";
 }
 
-//Function to store & set expiration for a cookie
 function setCookie(cname, cval) {
     const d = new Date();
     d.setTime(d.getTime() + (30*24*60*60*1000));
@@ -60,7 +60,6 @@ function setCookie(cname, cval) {
     document.cookie = cname + "=" + cval + ";" + expires + ";path=/";
 }
 
-//Function to calculate average and maximum for given 10 numbers
 function calc(data) {
     var dataErrorNode = document.getElementById("data-error");
     dataErrorNode.innerHTML = "";
@@ -69,7 +68,7 @@ function calc(data) {
     data = data.replace(/(^[,\s]+)|([,\s]+$)/g, '');
     data = data.split(',');
     if (data.length !== 10) {
-        dataErrorNode.innerHTML = "Enter 10 numbers";
+        dataErrorNode.innerHTML = "Enter exactly 10 numbers";
         return false;
     }
     var count = 0;
@@ -78,7 +77,7 @@ function calc(data) {
     var max = 0;
     for (var x of data) {
         if (x === "") {
-            dataErrorNode.innerHTML = "Enter 10 numbers";
+            dataErrorNode.innerHTML = "Enter exactly 10 numbers";
             return false;
         }
         x = x - '0';
@@ -99,7 +98,6 @@ function calc(data) {
     document.getElementById("maximum").innerHTML = max;
 }
 
-//Function to validate the fields -> Name, Address, Email, Checkboxes, and Radio buttons.
 function validateForm(event) {
 
     var alphabet = /^[A-Za-z]+$/;
@@ -143,7 +141,6 @@ function validateForm(event) {
         errorMessage += "You must choose an option of how you came to know about Mason. \n";
     }
 
-//JQuery UI Dialog box
     $( "#dialog" ).dialog({
         autoOpen: false,
         modal: true,
@@ -165,7 +162,6 @@ function validateForm(event) {
         ]
     });
 
-    // Stores rest and clears fields with error.
     if (errorMessage !== "")
     {
         $("#dialog").html(errorMessage);
@@ -173,7 +169,6 @@ function validateForm(event) {
         event.preventDefault();
     }
 
-    // Success case followed by resetting the form.
     else
     {
         $("#dialog").html("Feedback Submitted!");
@@ -193,7 +188,7 @@ function validateForm(event) {
 
 }
 
-// Function to check zipcode -> create request and assign event handler.
+
 function validateZip(zip) {
     try {
         var asyncRequest = new XMLHttpRequest();
@@ -209,7 +204,6 @@ function validateZip(zip) {
     }
 }
 
-// Event handler that checks if request was success and gets corresponding city and state.
 function callBack(zip, asyncRequest) {
     document.getElementById("zipcode").innerHTML = "Checking zip...";
     document.getElementById('city').innerHTML = "";
@@ -229,7 +223,6 @@ function callBack(zip, asyncRequest) {
     }
 }
 
-// Function that checks if zipcode is present in the JSON file.
 function isValid(zip, data) {
     var zipcodes = data.zipcodes;
     for (var element of zipcodes) {
